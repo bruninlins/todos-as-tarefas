@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+            font-family:'loli';
+            src: url('fonts/ToonyLine_PERSONAL_USE_ONLY.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+
+
+        @font-face {
+            font-family:'love' ;
+            src: url('fonts/Spicy\ Curry.otf') format('opentype'), url('fonts/Spicy\ Curry.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+            Tipos de format() 
+            -opentype (otf)
+            -truetype (ttf)
+            -embedded-opentype
+            -truetype-att (apple advanced )
+            */
+        }
+        body{
+            font-family: 'love', Helvetica, sans-serif;
+            color: aqua;
+            background-color: rgb(24, 0, 0);
+
+        }
+        h1{
+            font-family: 'love', Times, serif;
+            font-size: 3em;
+        }
+        h2{
+            font-family: 'loli', Times, serif;
+            font-size: 3em;
+        }
+        
+        .over{
+            font-family: 'loli';
+            background-color: rgb(255, 255, 255);
+            color: rgb(98, 24, 235);
+            font-size: 26px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda labore nostrum dolorum fugit maiores sit autem ipsum temporibus laborum perferendis ducimus a dolor nesciunt, dolores veritatis suscipit hic ab blanditiis! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, repudiandae accusantium expedita voluptates veniam dolores cum! Porro, repudiandae accusamus dolorum, obcaecati asperiores similique iure, debitis laboriosam consectetur tempora cum dolores?</p>
+    <h2>Subtitulo</h2>
+    <p class="over">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam dolorum eaque reprehenderit vel laborum aliquam. Sunt, eligendi non. Repellendus tenetur accusamus assumenda sapiente neque atque architecto suscipit, itaque cumque voluptatum! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus officiis tenetur aut harum magni fuga adipisci nulla ad nihil quis porro quas, velit ut asperiores pariatur ea sunt nisi. Pariatur.</p>
+    
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+    <style>
+        body{
+            background-color: rgb(161, 161, 206);
+        }
+    </style>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esse site em um vários dispositivos diferentes ou simplismente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px )" srcset="img01/img-p.jpg" type="image/jpg">
+       <source media="(max-width:1050px )" srcset="img01/img-m.jpg" type="image/jpg">
+       <img src="img01/img-gg.jpg" alt="">
+    </picture>
+    <h2>Todas a img estão em cima</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, voluptatem, omnis provident culpa, dolore quam suscipit facere deserunt doloremque non numquam repudiandae totam at laudantium harum praesentium fuga odit atque. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda laborum similique voluptate nemo accusantium perspiciatis optio a quidem nisi labore recusandae ducimus incidunt quam tempore, perferendis doloribus, suscipit rerum excepturi!</p>
+
+    <h1>Reproduzindo audio</h1>
+    <p>Vamos aprender a reproduzir audios em HTML5</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/musiquinha.mp3" type="audio/mpeg">
+        <p>Infelizmente seu navegador não consegue reproduzir o audio. <a href="midia/musiquinha.mp3">Clique aqui para baixar o arquivo.</a></p>
+    </audio>
+    <p>Infelizmente seu navegador não consegue reproduzir o audio. <a href="midia/musiquinha.mp3">Clique aqui para baixar o arquivo.</a></p>
+
+
+    
+</body>
+</html>

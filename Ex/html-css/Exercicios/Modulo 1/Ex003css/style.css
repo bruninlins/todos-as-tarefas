@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body{
+        background-color: rgb(119, 98, 98);
+        color: rgb(255, 255, 255);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+       } 
+       h1{
+        color: yellow;
+        background-color: rgb(68, 63, 63);
+       }
+       h2{
+        color: rgb(119, 187, 164);
+        background-color: rgb(7, 76, 78);
+        font-family: fantasy;
+        border: 8px solid rgb(136, 79, 122);
+       }
+       p{
+        background-color: rgb(255, 255, 255);
+        color: black;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border: 8px solid rgb(136, 79, 122);
+        text-align: justify;
+       }
